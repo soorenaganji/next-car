@@ -15,9 +15,6 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
-      <Head>
-        <title>CarShop</title>
-      </Head>
       <main>
         <div className="w-screen  bg-gradient-to-br from-transparent via-blue-200 to-blue-500 rounded-b-full pt-[180px] lg:pt-[80px] lg:pb-10 pb-20 z-0 mt-[-100px] ">
           <Image src={banner} className="w-[100%]  mx-auto z-2 lg:w-[50%]  " />
