@@ -5,8 +5,8 @@ import "react-toastify/dist/ReactToastify.css";
 import { useRouter } from "next/router";
 const SearchBar = () => {
   const router = useRouter();
-  const [min, setMin] = useState();
-  const [max, setMax] = useState();
+  const [min, setMin] = useState("");
+  const [max, setMax] = useState("");
   const navigator = () => {
     if (min && max) {
       router.push(`/filter/${min}/${max}`);

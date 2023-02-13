@@ -6,7 +6,7 @@ const carsData = [
       year: "2018",
       distance: "56000",
       location: "Germany",
-      price: 41399,
+      price: 41399 ,
       description:
         "While rival muscle cars have pivoted recently toward sharp handling, the 2023 Dodge Challenger keeps things retro with a package that’s designed more for old-school pony-car jollies and straight-line speed. A V-6 engine is standard in these non-SRT Challengers but the real fun comes with the optional naturally aspirated Hemi V-8 engines, which are offered in a variety of displacements and outputs spanning a 375-hp, 5.7-liter to a 485-hp, 6.4-liter. If you want even more power, Dodge will be happy to oblige with the big-stomper Challenger SRT Hellcat, which we review separately. The regular Challenger isn’t as intense as the outrageous Hellcat, but for some its V-8 burble and relatively comfortable ride will be enough to trigger nostalgic feelings for the vintage Dodge pony cars with which it shares a name.",
       image: "/images/Dodge.jpeg",
