@@ -44,29 +44,29 @@ const SearchBar = () => {
       </h2>
       <div className="flex lg:w-[60%] w-[99%] flex-col lg:flex-row items-center justify-center gap-2 mx-auto bg-white shadow-2xl border-2 border-gray-300 pt-24 pb-16 rounded-xl ">
         <div className="flex gap-5 flex-col mx-auto w-80">
-          <div className="flex items-center justify-start gap-2 w-full">
+          <div className="flex items-center justify-center gap-2 w-full">
             <input
               value={min}
               onChange={(e) => setMin(e.target.value)}
               placeholder="From"
               type="number"
-              className="border-2 border-blue-500 p-2 rounded-md text-black w-[80%] mx-auto"
+              className="border-2 border-blue-400 p-2 rounded-md outline-none text-black w-[80%] mx-auto"
             />
           </div>
-          <div className="flex items-center justify-start gap-2 w-full">
+          <div className="flex items-center justify-center gap-2 w-full">
             <input
               value={max}
               onChange={(e) => setMax(e.target.value)}
               type="number"
               placeholder="To"
-              className="border-2 border-blue-500 p-2 rounded-md text-black w-[80%] mx-auto "
+              className="border-2 border-blue-400 p-2 rounded-md outline-none text-black w-[80%] mx-auto "
             />
           </div>
         </div>
         <button
           onClick={navigator}
-          type="submit"
-          className="bg-blue-200 px-6 py-3 text-lg lg:px-4 lg-py-2 lg:text-md rounded-md mt-10 lg:mt-0 lg:mr-32 "
+          type={"submit"}
+          className="bg-blue-600 text-white shadow-sm px-4 outline-none py-2 text-lg lg:px-4 lg-py-2 lg:text-md rounded-lg mt-10 lg:mt-0 lg:mr-32 "
         >
           Search
         </button>

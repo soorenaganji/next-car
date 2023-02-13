@@ -4,6 +4,7 @@ import Suv from "../icons/Suv";
 import Sport from "../icons/Sport";
 import Location from "../icons/Location";
 import Link from "next/link";
+import Image from "next/image";
 const Card = (props) => {
   const cat = props.category;
   return (
@@ -34,8 +35,8 @@ const Card = (props) => {
           {props.year} - {props.distance}Km
         </p>
         <div className="flex w-full items-center justify-between mt-10 ">
-          <p className="bg-blue-600 text-white px-4 py-2 rounded-md">
-            {props.price}$
+          <p className="bg-blue-200 px-4 py-2 rounded-md">
+            {props.price.toLocaleString()} $
           </p>
           <div className="flex items-center justify-center gap-2">
             <p className="text-sm">{props.location}</p>
